@@ -1,5 +1,5 @@
 //models
-export * from './result.model';
+export * from './data.model';
 
 //components
 export * from '../output.component';

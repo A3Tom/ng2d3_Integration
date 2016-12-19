@@ -5,11 +5,14 @@ import { RouterModule }  from '@angular/router';
 
 import { AppComponent }  from './app.component';
 
+import { NG2D3Module }   from 'ng2d3';
+
 import { OutputComponent, SettingsComponent, SplashComponent, LeftPanelComponent, NavbarComponent } from './components/shared/index';
 
 @NgModule({
   imports:      [
     BrowserModule,
+    NG2D3Module,
     HttpModule,
     RouterModule.forRoot([
         {
